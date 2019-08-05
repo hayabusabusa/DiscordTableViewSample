@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4540AA922F81CD6005A2CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4540AA822F81CD6005A2CB4 /* AppDelegate.swift */; };
+		A4540AB022F81CD9005A2CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4540AAF22F81CD9005A2CB4 /* Assets.xcassets */; };
+		A4540AB322F81CD9005A2CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4540AB122F81CD9005A2CB4 /* LaunchScreen.storyboard */; };
+		A4540ABE22F81CD9005A2CB4 /* DiscordTableViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4540ABD22F81CD9005A2CB4 /* DiscordTableViewSampleTests.swift */; };
+		A4540AC922F81CD9005A2CB4 /* DiscordTableViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4540AC822F81CD9005A2CB4 /* DiscordTableViewSampleUITests.swift */; };
+		A4540AD722F81D1E005A2CB4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4540AD622F81D1E005A2CB4 /* TableViewController.swift */; };
+		A4540AD922F81D4F005A2CB4 /* TableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4540AD822F81D4F005A2CB4 /* TableViewController.storyboard */; };
+		A4540ADC22F81DFF005A2CB4 /* SeparatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4540ADB22F81DFF005A2CB4 /* SeparatorViewController.swift */; };
+		A4540ADE22F81E1F005A2CB4 /* SeparatorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4540ADD22F81E1F005A2CB4 /* SeparatorViewController.storyboard */; };
+		A4540AE122F81F82005A2CB4 /* SeparatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4540ADF22F81F82005A2CB4 /* SeparatorTableViewCell.swift */; };
+		A4540AE222F81F82005A2CB4 /* SeparatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4540AE022F81F82005A2CB4 /* SeparatorTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4540ABA22F81CD9005A2CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4540A9D22F81CD6005A2CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4540AA422F81CD6005A2CB4;
+			remoteInfo = DiscordTableViewSample;
+		};
+		A4540AC522F81CD9005A2CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4540A9D22F81CD6005A2CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4540AA422F81CD6005A2CB4;
+			remoteInfo = DiscordTableViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4540AA522F81CD6005A2CB4 /* DiscordTableViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscordTableViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4540AA822F81CD6005A2CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4540AAF22F81CD9005A2CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4540AB222F81CD9005A2CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4540AB422F81CD9005A2CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4540AB922F81CD9005A2CB4 /* DiscordTableViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscordTableViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4540ABD22F81CD9005A2CB4 /* DiscordTableViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordTableViewSampleTests.swift; sourceTree = "<group>"; };
+		A4540ABF22F81CD9005A2CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4540AC422F81CD9005A2CB4 /* DiscordTableViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscordTableViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4540AC822F81CD9005A2CB4 /* DiscordTableViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordTableViewSampleUITests.swift; sourceTree = "<group>"; };
+		A4540ACA22F81CD9005A2CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4540AD622F81D1E005A2CB4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A4540AD822F81D4F005A2CB4 /* TableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewController.storyboard; sourceTree = "<group>"; };
+		A4540ADB22F81DFF005A2CB4 /* SeparatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorViewController.swift; sourceTree = "<group>"; };
+		A4540ADD22F81E1F005A2CB4 /* SeparatorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SeparatorViewController.storyboard; sourceTree = "<group>"; };
+		A4540ADF22F81F82005A2CB4 /* SeparatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorTableViewCell.swift; sourceTree = "<group>"; };
+		A4540AE022F81F82005A2CB4 /* SeparatorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeparatorTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4540AA222F81CD6005A2CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4540AB622F81CD9005A2CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4540AC122F81CD9005A2CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4540A9C22F81CD6005A2CB4 = {
+			isa = PBXGroup;
+			children = (
+				A4540AA722F81CD6005A2CB4 /* DiscordTableViewSample */,
+				A4540ABC22F81CD9005A2CB4 /* DiscordTableViewSampleTests */,
+				A4540AC722F81CD9005A2CB4 /* DiscordTableViewSampleUITests */,
+				A4540AA622F81CD6005A2CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4540AA622F81CD6005A2CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4540AA522F81CD6005A2CB4 /* DiscordTableViewSample.app */,
+				A4540AB922F81CD9005A2CB4 /* DiscordTableViewSampleTests.xctest */,
+				A4540AC422F81CD9005A2CB4 /* DiscordTableViewSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4540AA722F81CD6005A2CB4 /* DiscordTableViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				A4540AA822F81CD6005A2CB4 /* AppDelegate.swift */,
+				A4540AD622F81D1E005A2CB4 /* TableViewController.swift */,
+				A4540AD822F81D4F005A2CB4 /* TableViewController.storyboard */,
+				A4540ADA22F81DEC005A2CB4 /* Separator */,
+				A4540AAF22F81CD9005A2CB4 /* Assets.xcassets */,
+				A4540AB122F81CD9005A2CB4 /* LaunchScreen.storyboard */,
+				A4540AB422F81CD9005A2CB4 /* Info.plist */,
+			);
+			path = DiscordTableViewSample;
+			sourceTree = "<group>";
+		};
+		A4540ABC22F81CD9005A2CB4 /* DiscordTableViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4540ABD22F81CD9005A2CB4 /* DiscordTableViewSampleTests.swift */,
+				A4540ABF22F81CD9005A2CB4 /* Info.plist */,
+			);
+			path = DiscordTableViewSampleTests;
+			sourceTree = "<group>";
+		};
+		A4540AC722F81CD9005A2CB4 /* DiscordTableViewSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4540AC822F81CD9005A2CB4 /* DiscordTableViewSampleUITests.swift */,
+				A4540ACA22F81CD9005A2CB4 /* Info.plist */,
+			);
+			path = DiscordTableViewSampleUITests;
+			sourceTree = "<group>";
+		};
+		A4540ADA22F81DEC005A2CB4 /* Separator */ = {
+			isa = PBXGroup;
+			children = (
+				A4540ADB22F81DFF005A2CB4 /* SeparatorViewController.swift */,
+				A4540ADD22F81E1F005A2CB4 /* SeparatorViewController.storyboard */,
+				A4540ADF22F81F82005A2CB4 /* SeparatorTableViewCell.swift */,
+				A4540AE022F81F82005A2CB4 /* SeparatorTableViewCell.xib */,
+			);
+			path = Separator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4540AA422F81CD6005A2CB4 /* DiscordTableViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4540ACD22F81CD9005A2CB4 /* Build configuration list for PBXNativeTarget "DiscordTableViewSample" */;
+			buildPhases = (
+				A4540AA122F81CD6005A2CB4 /* Sources */,
+				A4540AA222F81CD6005A2CB4 /* Frameworks */,
+				A4540AA322F81CD6005A2CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscordTableViewSample;
+			productName = DiscordTableViewSample;
+			productReference = A4540AA522F81CD6005A2CB4 /* DiscordTableViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4540AB822F81CD9005A2CB4 /* DiscordTableViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4540AD022F81CD9005A2CB4 /* Build configuration list for PBXNativeTarget "DiscordTableViewSampleTests" */;
+			buildPhases = (
+				A4540AB522F81CD9005A2CB4 /* Sources */,
+				A4540AB622F81CD9005A2CB4 /* Frameworks */,
+				A4540AB722F81CD9005A2CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4540ABB22F81CD9005A2CB4 /* PBXTargetDependency */,
+			);
+			name = DiscordTableViewSampleTests;
+			productName = DiscordTableViewSampleTests;
+			productReference = A4540AB922F81CD9005A2CB4 /* DiscordTableViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4540AC322F81CD9005A2CB4 /* DiscordTableViewSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4540AD322F81CD9005A2CB4 /* Build configuration list for PBXNativeTarget "DiscordTableViewSampleUITests" */;
+			buildPhases = (
+				A4540AC022F81CD9005A2CB4 /* Sources */,
+				A4540AC122F81CD9005A2CB4 /* Frameworks */,
+				A4540AC222F81CD9005A2CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4540AC622F81CD9005A2CB4 /* PBXTargetDependency */,
+			);
+			name = DiscordTableViewSampleUITests;
+			productName = DiscordTableViewSampleUITests;
+			productReference = A4540AC422F81CD9005A2CB4 /* DiscordTableViewSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4540A9D22F81CD6005A2CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Yamada Shunya";
+				TargetAttributes = {
+					A4540AA422F81CD6005A2CB4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A4540AB822F81CD9005A2CB4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A4540AA422F81CD6005A2CB4;
+					};
+					A4540AC322F81CD9005A2CB4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A4540AA422F81CD6005A2CB4;
+					};
+				};
+			};
+			buildConfigurationList = A4540AA022F81CD6005A2CB4 /* Build configuration list for PBXProject "DiscordTableViewSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4540A9C22F81CD6005A2CB4;
+			productRefGroup = A4540AA622F81CD6005A2CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4540AA422F81CD6005A2CB4 /* DiscordTableViewSample */,
+				A4540AB822F81CD9005A2CB4 /* DiscordTableViewSampleTests */,
+				A4540AC322F81CD9005A2CB4 /* DiscordTableViewSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4540AA322F81CD6005A2CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4540AD922F81D4F005A2CB4 /* TableViewController.storyboard in Resources */,
+				A4540ADE22F81E1F005A2CB4 /* SeparatorViewController.storyboard in Resources */,
+				A4540AB322F81CD9005A2CB4 /* LaunchScreen.storyboard in Resources */,
+				A4540AB022F81CD9005A2CB4 /* Assets.xcassets in Resources */,
+				A4540AE222F81F82005A2CB4 /* SeparatorTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4540AB722F81CD9005A2CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4540AC222F81CD9005A2CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4540AA122F81CD6005A2CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4540AD722F81D1E005A2CB4 /* TableViewController.swift in Sources */,
+				A4540ADC22F81DFF005A2CB4 /* SeparatorViewController.swift in Sources */,
+				A4540AA922F81CD6005A2CB4 /* AppDelegate.swift in Sources */,
+				A4540AE122F81F82005A2CB4 /* SeparatorTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4540AB522F81CD9005A2CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4540ABE22F81CD9005A2CB4 /* DiscordTableViewSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4540AC022F81CD9005A2CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4540AC922F81CD9005A2CB4 /* DiscordTableViewSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4540ABB22F81CD9005A2CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4540AA422F81CD6005A2CB4 /* DiscordTableViewSample */;
+			targetProxy = A4540ABA22F81CD9005A2CB4 /* PBXContainerItemProxy */;
+		};
+		A4540AC622F81CD9005A2CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4540AA422F81CD6005A2CB4 /* DiscordTableViewSample */;
+			targetProxy = A4540AC522F81CD9005A2CB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4540AB122F81CD9005A2CB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4540AB222F81CD9005A2CB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4540ACB22F81CD9005A2CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4540ACC22F81CD9005A2CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4540ACE22F81CD9005A2CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P9HBNW4T;
+				INFOPLIST_FILE = DiscordTableViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yamadash.DiscordTableViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4540ACF22F81CD9005A2CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P9HBNW4T;
+				INFOPLIST_FILE = DiscordTableViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yamadash.DiscordTableViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4540AD122F81CD9005A2CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P9HBNW4T;
+				INFOPLIST_FILE = DiscordTableViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yamadash.DiscordTableViewSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscordTableViewSample.app/DiscordTableViewSample";
+			};
+			name = Debug;
+		};
+		A4540AD222F81CD9005A2CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P9HBNW4T;
+				INFOPLIST_FILE = DiscordTableViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yamadash.DiscordTableViewSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscordTableViewSample.app/DiscordTableViewSample";
+			};
+			name = Release;
+		};
+		A4540AD422F81CD9005A2CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P9HBNW4T;
+				INFOPLIST_FILE = DiscordTableViewSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yamadash.DiscordTableViewSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiscordTableViewSample;
+			};
+			name = Debug;
+		};
+		A4540AD522F81CD9005A2CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7P9HBNW4T;
+				INFOPLIST_FILE = DiscordTableViewSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yamadash.DiscordTableViewSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiscordTableViewSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4540AA022F81CD6005A2CB4 /* Build configuration list for PBXProject "DiscordTableViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4540ACB22F81CD9005A2CB4 /* Debug */,
+				A4540ACC22F81CD9005A2CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4540ACD22F81CD9005A2CB4 /* Build configuration list for PBXNativeTarget "DiscordTableViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4540ACE22F81CD9005A2CB4 /* Debug */,
+				A4540ACF22F81CD9005A2CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4540AD022F81CD9005A2CB4 /* Build configuration list for PBXNativeTarget "DiscordTableViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4540AD122F81CD9005A2CB4 /* Debug */,
+				A4540AD222F81CD9005A2CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4540AD322F81CD9005A2CB4 /* Build configuration list for PBXNativeTarget "DiscordTableViewSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4540AD422F81CD9005A2CB4 /* Debug */,
+				A4540AD522F81CD9005A2CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4540A9D22F81CD6005A2CB4 /* Project object */;
+}
