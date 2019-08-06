@@ -34,6 +34,7 @@ final class EmptyStateViewController: UIViewController {
         didSet {
             tableView.setEmptyView(itemCount: items.count,
                                    separatorStyle: .singleLine,
+                                   image: UIImage(named: "ic_empty"),
                                    title: "Sorry, Empty ...",
                                    message: "There are no items :(\n Please tap refresh button !")
             tableView.reloadData()

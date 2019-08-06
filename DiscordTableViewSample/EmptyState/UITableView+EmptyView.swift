@@ -19,8 +19,15 @@ class EmptyView: UIView {
         super.init(coder: aDecoder)
     }
     
-    init(frame: CGRect, title: String, message: String) {
+    init(frame: CGRect, image: UIImage?, title: String, message: String) {
         super.init(frame: frame)
+        
+        // Image
+        let imageView = UIImageView(image: image)
+        imageView.contentMode = .scaleAspectFit
+        imageView.clipsToBounds = true
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.alpha = 0
         
         // Labels
         let titleLabel = UILabel()
@@ -48,6 +55,7 @@ class EmptyView: UIView {
         stackView.distribution = .equalSpacing
         stackView.spacing = 4.0
         stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.addArrangedSubview(imageView)
         stackView.addArrangedSubview(titleLabel)
         stackView.addArrangedSubview(messageLabel)
         
@@ -55,6 +63,7 @@ class EmptyView: UIView {
         
         // Autolayout
         NSLayoutConstraint.activate([
+            imageView.heightAnchor.constraint(equalToConstant: 120),
             stackView.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: 0),
             stackView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 0),
             stackView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 0)
@@ -62,6 +71,7 @@ class EmptyView: UIView {
         
         // Animation
         UIView.animate(withDuration: 0.8) {
+            imageView.alpha = 1.0
             titleLabel.alpha = 1.0
             messageLabel.alpha = 1.0
         }
@@ -74,11 +84,11 @@ class EmptyView: UIView {
 
 extension UITableView {
     
-    func setEmptyView(itemCount: Int, separatorStyle: UITableViewCell.SeparatorStyle, title: String, message: String) {
+    func setEmptyView(itemCount: Int, separatorStyle: UITableViewCell.SeparatorStyle, image: UIImage? = nil, title: String, message: String) {
         if itemCount == 0 {
             // Show emptyView
             let rect = CGRect(x: self.center.x, y: self.center.y, width: self.bounds.size.width, height: self.bounds.size.height)
-            let emptyView = EmptyView(frame: rect, title: title, message: message)
+            let emptyView = EmptyView(frame: rect, image: image, title: title, message: message)
             
             self.backgroundView = emptyView
             self.separatorStyle = .none
@@ -92,11 +102,11 @@ extension UITableView {
 
 extension UICollectionView {
     
-    func setEmptyView(itemCount: Int, title: String, message: String) {
+    func setEmptyView(itemCount: Int, image: UIImage? = nil, title: String, message: String) {
         if itemCount == 0 {
             // Show emptyView
             let rect = CGRect(x: self.center.x, y: self.center.y, width: self.bounds.size.width, height: self.bounds.size.height)
-            let emptyView = EmptyView(frame: rect, title: title, message: message)
+            let emptyView = EmptyView(frame: rect, image: image, title: title, message: message)
             
             self.backgroundView = emptyView
         } else {
