@@ -18,6 +18,11 @@
 		A4540ADE22F81E1F005A2CB4 /* SeparatorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4540ADD22F81E1F005A2CB4 /* SeparatorViewController.storyboard */; };
 		A4540AE122F81F82005A2CB4 /* SeparatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4540ADF22F81F82005A2CB4 /* SeparatorTableViewCell.swift */; };
 		A4540AE222F81F82005A2CB4 /* SeparatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4540AE022F81F82005A2CB4 /* SeparatorTableViewCell.xib */; };
+		A49DB38922F935350041A8BD /* EmptyStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49DB38822F935350041A8BD /* EmptyStateViewController.swift */; };
+		A49DB38B22F935660041A8BD /* EmptyStateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49DB38A22F935660041A8BD /* EmptyStateViewController.storyboard */; };
+		A49DB38E22F937800041A8BD /* EmptyStateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49DB38C22F937800041A8BD /* EmptyStateTableViewCell.swift */; };
+		A49DB38F22F937800041A8BD /* EmptyStateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49DB38D22F937800041A8BD /* EmptyStateTableViewCell.xib */; };
+		A49DB39122F93CF90041A8BD /* UITableView+EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49DB39022F93CF90041A8BD /* UITableView+EmptyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		A4540ADD22F81E1F005A2CB4 /* SeparatorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SeparatorViewController.storyboard; sourceTree = "<group>"; };
 		A4540ADF22F81F82005A2CB4 /* SeparatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorTableViewCell.swift; sourceTree = "<group>"; };
 		A4540AE022F81F82005A2CB4 /* SeparatorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeparatorTableViewCell.xib; sourceTree = "<group>"; };
+		A49DB38822F935350041A8BD /* EmptyStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateViewController.swift; sourceTree = "<group>"; };
+		A49DB38A22F935660041A8BD /* EmptyStateViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmptyStateViewController.storyboard; sourceTree = "<group>"; };
+		A49DB38C22F937800041A8BD /* EmptyStateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateTableViewCell.swift; sourceTree = "<group>"; };
+		A49DB38D22F937800041A8BD /* EmptyStateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyStateTableViewCell.xib; sourceTree = "<group>"; };
+		A49DB39022F93CF90041A8BD /* UITableView+EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+EmptyView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,7 @@
 				A4540AD622F81D1E005A2CB4 /* TableViewController.swift */,
 				A4540AD822F81D4F005A2CB4 /* TableViewController.storyboard */,
 				A4540ADA22F81DEC005A2CB4 /* Separator */,
+				A49DB38722F934F30041A8BD /* EmptyState */,
 				A4540AAF22F81CD9005A2CB4 /* Assets.xcassets */,
 				A4540AB122F81CD9005A2CB4 /* LaunchScreen.storyboard */,
 				A4540AB422F81CD9005A2CB4 /* Info.plist */,
@@ -143,6 +154,18 @@
 				A4540AE022F81F82005A2CB4 /* SeparatorTableViewCell.xib */,
 			);
 			path = Separator;
+			sourceTree = "<group>";
+		};
+		A49DB38722F934F30041A8BD /* EmptyState */ = {
+			isa = PBXGroup;
+			children = (
+				A49DB39022F93CF90041A8BD /* UITableView+EmptyView.swift */,
+				A49DB38822F935350041A8BD /* EmptyStateViewController.swift */,
+				A49DB38A22F935660041A8BD /* EmptyStateViewController.storyboard */,
+				A49DB38C22F937800041A8BD /* EmptyStateTableViewCell.swift */,
+				A49DB38D22F937800041A8BD /* EmptyStateTableViewCell.xib */,
+			);
+			path = EmptyState;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,10 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4540AD922F81D4F005A2CB4 /* TableViewController.storyboard in Resources */,
+				A49DB38B22F935660041A8BD /* EmptyStateViewController.storyboard in Resources */,
 				A4540ADE22F81E1F005A2CB4 /* SeparatorViewController.storyboard in Resources */,
 				A4540AB322F81CD9005A2CB4 /* LaunchScreen.storyboard in Resources */,
 				A4540AB022F81CD9005A2CB4 /* Assets.xcassets in Resources */,
 				A4540AE222F81F82005A2CB4 /* SeparatorTableViewCell.xib in Resources */,
+				A49DB38F22F937800041A8BD /* EmptyStateTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +304,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4540AD722F81D1E005A2CB4 /* TableViewController.swift in Sources */,
+				A49DB38E22F937800041A8BD /* EmptyStateTableViewCell.swift in Sources */,
+				A49DB38922F935350041A8BD /* EmptyStateViewController.swift in Sources */,
+				A49DB39122F93CF90041A8BD /* UITableView+EmptyView.swift in Sources */,
 				A4540ADC22F81DFF005A2CB4 /* SeparatorViewController.swift in Sources */,
 				A4540AA922F81CD6005A2CB4 /* AppDelegate.swift in Sources */,
 				A4540AE122F81F82005A2CB4 /* SeparatorTableViewCell.swift in Sources */,

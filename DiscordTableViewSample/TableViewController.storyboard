@@ -82,7 +82,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="376" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="none" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKh-25-YoA">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty State" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKh-25-YoA">
                                                     <rect key="frame" x="16" y="8" width="328" height="27.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -96,6 +96,9 @@
                                                 <constraint firstAttribute="trailing" secondItem="ZKh-25-YoA" secondAttribute="trailing" constant="32" id="hIw-zG-boE"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="wJK-X6-992" kind="show" id="fny-PD-GRA"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -118,6 +121,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cyQ-Rr-dtm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1859" y="-108"/>
+        </scene>
+        <!--EmptyStateViewController-->
+        <scene sceneID="abh-hy-IuB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="EmptyStateViewController" id="wJK-X6-992" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="No2-Pp-bQM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1850" y="-44"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mpb-3L-ggA">
