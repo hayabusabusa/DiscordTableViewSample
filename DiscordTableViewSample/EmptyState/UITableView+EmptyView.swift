@@ -63,14 +63,17 @@ class EmptyView: UIView {
         
         // Autolayout
         NSLayoutConstraint.activate([
-            imageView.heightAnchor.constraint(equalToConstant: 120),
             stackView.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: 0),
             stackView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 0),
             stackView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 0)
             ])
         
+        if let _ = image {
+            imageView.heightAnchor.constraint(equalToConstant: 120).isActive = true
+        }
+        
         // Animation
-        UIView.animate(withDuration: 0.8) {
+        UIView.animate(withDuration: 0.8) { 
             imageView.alpha = 1.0
             titleLabel.alpha = 1.0
             messageLabel.alpha = 1.0
